@@ -1,4 +1,4 @@
-
+/* For the top navigator bar */
 .topnav {
     background-color: rgb(238, 165, 165);
     overflow: hidden;
@@ -23,24 +23,25 @@
 }
 
 
-
+/* For the section of main content */
 section {
     margin: auto;
     width: 60%;
     clear: both;
 }
-
+/* For the left part of journal content: text part */
 .left {
     float: left;
     width: 28%;
     height: 300px;
 }
-
+/* For the right part of journal content: image/vedio/sound part */
 .right {
     float: right;
     width: 70%;
     height: 300px;
 }
+
 
 li {
     font-style: bold;
