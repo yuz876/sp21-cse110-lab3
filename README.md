@@ -1,1 +1,3 @@
-# sp21-cse110-lab3
+The URL to my published site:
+
+https://yuz876.github.io/Lab2/

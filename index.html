@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Yujie's Journal Entries.">
+        <meta name="keywords" content="CSE110, Lab2, HTML">
+        <meta name="author" content="Yujie Zhang">
+        <link rel="icon" type="image/jpg" href="img/dog.jpg">
+
+        <title>Yujie's Journal Entries</title>
+
+
+        <style>
+            body {
+                background-color: rgb(247, 203, 203);
+                border-style: hidden;
+            }
+            
+            
+            .topnav {
+                background-color: rgb(238, 165, 165);
+                overflow: hidden;
+                margin: auto;
+                width: 60%;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .topnav a:hover {
+                background-color: rgb(255, 197, 197);
+                color: black;
+            }
+            .topnav a.active {
+                background-color: #e46f6f;
+                color: white;
+            }
+
+
+
+            section {
+                margin: auto;
+                width: 60%;
+                clear: both;
+            }
+
+            .left {
+                float: left;
+                width: 28%;
+                height: 300px;
+            }
+
+            .right {
+                float: right;
+                width: 70%;
+                height: 300px;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        
+
+        <header style="text-align: center;">
+        <h1>Yujie's Journal Entries</h1>
+        </header>
+        <hr>
+
+        <div class="topnav">
+            <a class="active">Home</a>
+            <a href="#0409">04/09</a>
+            <a href="#0408">04/08</a>
+            <a href="#0407">04/07</a>
+        </div>
+
+        <main>
+        <section id="0409">
+        <h1>04/09/2021 Friday</h1>
+        <p>Today is a good day. I have finished tons of stuff:</p>
+        <ol>
+            <li style="font-style: italic"><input type="checkbox" checked> Got up early. </li>
+            <li style="font-style: italic"><input type="checkbox" checked> Finished my quiz.</li>
+            <li style="font-style: italic"><input type="checkbox" checked> Finished Lab2.</li>
+        </ol>
+        <p>To do list for tomorrow:</p>
+        <ul>
+            <li style="font-style: italic"><input type="checkbox" > Got up early. </li>
+            <li style="font-style: italic"><input type="checkbox" > Listen to the class.</li>
+            <li style="font-style: italic"><input type="checkbox" > Finished HW.</li>
+        </ul>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section id="0408">
+            <div class="left">
+                <h1>04/08/2021 Thursday</h1>
+                <p style="color:purple"> I have a <strong>dog</strong> name <b>Sam</b>, he is <i>2</i> years old. His birthday is <em>June 11th</em>.  </p>
+            </div>
+                
+            <div class="right">
+                <img height=180 src="img/dog.jpg" alt="A dog.">
+                <p>Click here to hear my dog say hello with you!</p>
+                <audio controls>
+                    <source src="media/bark.mp3" type="audio/mpeg">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section id="0407">
+            <div class="left">
+                <h1>04/07/2021 Wednesday</h1>
+                <p>My faourite movie is <a href="https://www.imdb.com/title/tt4566758/">Mulan</a>. </p>
+                <p>Director: Niki Caro</p>
+                <p>Writers: Rick Jaffa, Amanda Silver </p>
+                <p>Stars: Yifei Liu, Donnie Yen, Gong Li </p>
+            </div>
+            <div class="right">
+                <iframe  src="https://www.youtube.com/embed/KK8FHdFluOQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <br>
+        </main>
+
+
+        <section>    
+            <details>
+                <summary>Shhhhhh</summary>
+                <p>This is a secret. Don't tell others.</p>
+            </details>
+        </section>
+
+        <section>    
+            <form action="/action_page.php" method="get" id="form1"> 
+                <fieldset>
+                    <legend>To create a jornual entry yourself:</legend>
+                    <input type="checkbox" checked> Finished your to-do-list? 
+
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>  
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="date" value="2021-04-10"><br>
+
+
+                    <label for="weather">How is the weather today?</label>
+                    <input list="weathers" name="weather" id="weather">
+
+                    <datalist id="weathers">
+                    <option value="Sunny">Sunny</option>
+                    <option value="Windy">Windy</option>
+                    <option value="Rainy">Rainy</option>
+                    <option value="Snowy">Snowy</option>
+                    <option value="Cloudy">Cloudy</option>
+                    </datalist>
+
+                    <label for="mood">Are you happy?</label>
+                    <select name="mood" id="mood">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Justsoso">Just so so</option>
+                    </select>
+
+
+                    <br>
+                    <textarea id="journay" name="journay" rows="4" cols="50">Write your journay here...</textarea>
+             
+                    
+                    
+                </fieldset>
+              </form>  
+              <button type="submit" form="form1" value="Submit">Submit</button>
+        </section>
+
+        <footer style="text-align: center;color: #494040; clear:both">
+            <p style="padding-top:30px">Copyright 2021 by Yujie Zhang. All Rights Reserved.</p>
+        </footer>
+
+    </body>
+</html>
+
+
