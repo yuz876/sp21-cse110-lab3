@@ -43,3 +43,21 @@ section {
 }
 
 
+.em_eg {
+    font-size: em;
+}
+.em2_eg {
+    font-size: 2em;
+}
+.em3_eg {
+    font-size: 3em;
+}
+.px16_eg {
+    font-size: 16px;
+}
+.px18_eg {
+    font-size: 18px;
+}
+.px20_eg {
+    font-size: 20px;
+}
