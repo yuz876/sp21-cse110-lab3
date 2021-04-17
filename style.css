@@ -15,7 +15,7 @@
 }
 .topnav a:hover {
     background-color: rgb(255, 197, 197);
-    color: black;
+    color: hsl(0,0,0);
 }
 .topnav a.active {
     background-color: #e46f6f;
