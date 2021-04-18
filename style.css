@@ -167,3 +167,41 @@ ul.display_eg {
     margin-top: 10px;
     font-family: 'Original Surfer', cursive;
 }
+
+
+.class_selector {
+    color:#e46f6f;
+}
+#id_eg{
+    text-align: right;
+}
+* {
+    text-align: auto;
+}
+b {
+    color:#e46f6f; 
+}
+a[target] {
+    text-decoration: underline;
+}
+b, strong {
+    color:#e46f6f; 
+}
+ul li {
+    list-style-type: circle;
+}
+ul li ul li {
+    list-style-type: disc;
+}
+a > p {
+    text-decoration:line-through;
+}
+span ~ a {
+    text-decoration:overline;
+}
+a + span {
+    text-decoration: line-through;
+}
+p.CombiningTwoSelectors {
+    color:#e46f6f;
+}
