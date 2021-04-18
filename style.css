@@ -118,6 +118,7 @@ ul.display_eg {
     display: flex;
     flex-direction: row;
     font-size: 30px;
+    justify-content: center;
     text-align: center;   
     align-items: stretch;
 }
@@ -160,4 +161,9 @@ ul.display_eg {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
+}
+
+.font1 {
+    margin-top: 10px;
+    font-family: 'Original Surfer', cursive;
 }
