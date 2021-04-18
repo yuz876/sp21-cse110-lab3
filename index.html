@@ -62,7 +62,7 @@
         <section id="0408">
             <div class="left">
                 <h1>04/08/2021 Thursday</h1>
-                <p style="color:purple"> <b>I<b> have a <strong>dog</strong> name <b>Sam</b>, he is <i>2</i> years old. His birthday is <em>June 11th</em>.  </p>
+                <p style="color:purple"> <b>I</b> have a <strong>dog</strong> name <b>Sam</b>, he is <i>2</i> years old. His birthday is <em>June 11th</em>.  </p>
             </div>
                 
             <div class="right">
@@ -93,7 +93,8 @@
             </div>
         </section>
 
-        <section id="css_eg">            
+        <section id="css_eg">  
+            <br>          
             <h1>Lab3 CSS examples:</h1>
            
 
@@ -167,6 +168,28 @@
             
             <div class="font1">
                 This is showing the font "Original Surfer (Designed by Astigmatic)".
+            </div>
+
+            <div style="margin-top:10px">
+                This is showing CSS Selectors:
+                <div class="class_selector">Class Selector (.class)</div>
+                <div id="id_eg">ID Selector (#id) </div>
+                Universal Selector (*): "* { text-align: auto;}"<br>
+                <b>Element Selector (element) </b><br>
+                <a href="www.ucsd.edu" target="_blank">Attribute Selector (e.g. [attribute=foo]) </a> <br>    
+                Pseudo-class Selector (e.g. p::hover) (has been shown in .topnav)<br>
+                <strong>Selector List (element, element)                   /* select multiple elements */</strong>
+                <ul>
+                    <li>Combinators (you must use one of each)    /* specify selections based on element positioning in the DOM tree */
+                        <ul>
+                            <li>Descendant Combinator (element element)</li>
+                        </ul>
+                    </li>
+                </ul>
+                <a><p>Child Combinator (element > element)</p></a>
+                <a>General</a> <span>sibling</span> <a>combinator (element ~ element)</a>: Only "a" after "span" has overline.<br>
+                <a>Adjacent</a> <b>sibling</b> <span>combinator</span> <a>(element</a> <span>+ element)</span>: Only "span" closely followed "a" has line-through.
+                <p class="CombiningTwoSelectors">Combining Two Selectors (element.class)</p>
             </div>
 
         </section>
